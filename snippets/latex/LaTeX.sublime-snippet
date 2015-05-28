@@ -1,0 +1,59 @@
+<snippet>
+  <content><![CDATA[
+\title{${1:}}
+\author{${2:Jiahao Li\\\\
+}${3:section}}
+\date{\today}
+
+\documentclass[12pt]{article}
+
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{scopes}
+\usetikzlibrary{patterns}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{empheq}
+\usepackage{gensymb}
+\usepackage[colorlinks=false, pdfborder={0 0 0}, bookmarksnumbered]{hyperref}
+\usepackage{cleveref}
+\usepackage{fancyhdr}
+
+\usepackage[margin=1in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Jiahao Li}
+\rhead{${3:section}}
+\cfoot{Page \thepage}
+
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\newcommand*\wfbox[1]{\fbox{\vspace{0.5em}\hspace{1em}#1\hspace{1em}\vspace{0.5em}}}
+\newcommand{\todobox}[0]{\begin{tikzpicture}
+    \fill[color=red] (0,0) -- (\linewidth,0) -- (\linewidth,1) -- (0, 1);
+    \node[color=white] at ({\linewidth / 2}, 0.5) {Contents to be added here};
+  \end{tikzpicture}
+}
+
+\makeatletter
+\let\ps@plain\ps@fancy
+\makeatother
+
+\begin{document}
+\maketitle
+
+${4:}
+
+\end{document}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>latex</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>

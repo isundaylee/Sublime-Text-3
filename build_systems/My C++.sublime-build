@@ -1,0 +1,6 @@
+{
+  "shell": true,
+  "cmd": ["g++", "-o", "/tmp/sublime_cpp", "$file", "&", "/tmp/sublime_cpp"],
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.c++"
+}

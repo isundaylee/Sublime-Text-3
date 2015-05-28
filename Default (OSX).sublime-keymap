@@ -1,0 +1,38 @@
+[
+  {
+    "keys": ["j", "k"],
+    "command": "exit_insert_mode",
+    "context":
+    [
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operand": false }
+    ]
+  },
+  { "keys": ["ctrl+shift+'"], "command": "change_quotes" },
+  { "keys": ["super+k", "super+g"], "command": "insert_gist_list" },
+  { "keys": ["alt+super+="], "command": "increment_selected_number" },
+  { "keys": ["alt+super+-"], "command": "decrement_selected_number" },
+  {
+    "keys": ["n", "n"],
+    "command": "advanced_new_file",
+    "context":
+    [
+      { "key": "setting.command_mode", "operand": true }
+    ]
+  },
+  {
+    "keys": ["n", "m"],
+    "command": "advanced_new_file_move",
+    "context":
+    [
+      { "key": "setting.command_mode", "operand": true }
+    ]
+  },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+shift+a"], "command": "alignment" },
+  { "keys": ["alt+b"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+  { "keys": ["super+b"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}, "context": [ {"key": "selector", "operator": "equal", "operand": "text.html.markdown.gtm" }] },
+  // { "keys": ["super+shift+alt+h"], "command": "highlight_extended_chars"},
+  // { "keys": ["super+shift+alt+t"], "command": "translate_extended_chars"}
+]

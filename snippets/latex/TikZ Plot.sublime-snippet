@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\draw [scale=1,domain=${1:-1}:${2:1},smooth,variable=\x] plot ({\x}, {${3:\x*\x}});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tplot</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>

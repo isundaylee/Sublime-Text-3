@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+\usepackage{tikz}
+\usetikzlibrary{scopes}
+\usetikzlibrary{patterns}
+\newcommand{\todobox}[0]{\begin{tikzpicture}
+  \fill[color=red] (0,0) -- (\linewidth,0) -- (\linewidth,1) -- (0, 1);
+  \node[color=white] at ({\linewidth / 2}, 0.5) {Contents to be added here};
+  \end{tikzpicture}
+}
+  </content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>6006</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>

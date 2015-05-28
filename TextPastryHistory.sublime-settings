@@ -1,0 +1,61 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"current": "1",
+					"padding": "1",
+					"step": "1"
+				},
+				"command": "insert_nums",
+				"text": "i1"
+			},
+			"key": "9ce88802f07591e5ce0457ef51ece021",
+			"label": "i1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"current": "1",
+					"padding": "1",
+					"step": "1"
+				},
+				"command": "insert_nums",
+				"text": "i"
+			},
+			"key": "865c0c0b4ab0e063e5caa3387c1a8741",
+			"label": "i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"current": "1",
+					"padding": "2",
+					"step": "1"
+				},
+				"command": "insert_nums",
+				"text": "1 1 2"
+			},
+			"key": "bed4ce69bb178ee0474acea7c3188868",
+			"label": "1 1 2"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"current": "1",
+			"padding": "2",
+			"step": "1"
+		},
+		"command": "insert_nums",
+		"text": "1 1 2"
+	}
+}

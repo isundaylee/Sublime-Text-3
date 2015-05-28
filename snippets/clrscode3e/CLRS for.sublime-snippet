@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+\li \For \$${1:i} \gets ${2:1}\$ \To \$${3:n}\$ \Do
+  $4
+\End
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>for</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>
