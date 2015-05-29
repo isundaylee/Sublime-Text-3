@@ -19,16 +19,16 @@
 		"venv"
 	],
 	"font_face": "DejaVu Sans Mono",
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"3024 Color Scheme",
-		"Bootstrap 3 Snippets",
 		"Markdown",
-		"Base16 Color Schemes"
+		"3024 Color Scheme",
+		"Base16 Color Schemes",
+		"Bootstrap 3 Snippets"
 	],
 	"indent_guide_options":
 	[
