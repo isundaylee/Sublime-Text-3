@@ -22,13 +22,13 @@
 	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"hot_exit": false,
+	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"3024 Color Scheme",
 		"Base16 Color Schemes",
-		"Bootstrap 3 Snippets"
+		"Markdown",
+		"Bootstrap 3 Snippets",
+		"3024 Color Scheme"
 	],
 	"indent_guide_options":
 	[
@@ -37,9 +37,10 @@
 	],
 	"line_padding_bottom": 1,
 	"remember_open_files": false,
+	"ruler": 100,
 	"show_encoding": true,
 	"soda_classic_tabs": true,
-	"tab_size": 2,
+	"tab_size": 8,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
