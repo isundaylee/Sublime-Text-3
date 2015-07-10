@@ -33,6 +33,26 @@
   { "keys": ["super+shift+a"], "command": "alignment" },
   { "keys": ["alt+b"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
   { "keys": ["super+b"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}, "context": [ {"key": "selector", "operator": "equal", "operand": "text.html.markdown.gtm" }] },
+  { "keys": ["control+8"], "command": "set_setting", "args": { "setting": "tab_size", "value": 8 } },
+  { "keys": ["control+4"], "command": "set_setting", "args": { "setting": "tab_size", "value": 4 } },
+  { "keys": ["control+3"], "command": "set_setting", "args": { "setting": "tab_size", "value": 2 } },
+  {
+    "command": "clang_goto_def",
+    "context": [{"key": "clang_supported_language"}],
+    "keys": ["control+t", "control+r"]
+  },
+  {
+    "command": "clang_goto_implementation",
+    "context": [{"key": "clang_supported_language"}],
+    "keys": ["control+t", "control+t"]
+  },
+  {
+    "command": "clang_go_back",
+    "context": [{"key": "clang_supported_language"}],
+    "keys": ["control+t", "control+b"]
+  },
+  { "keys": ["control+up"], "command": "git_gutter_prev_change" },
+  { "keys": ["control+down"], "command": "git_gutter_next_change" },
   // { "keys": ["super+shift+alt+h"], "command": "highlight_extended_chars"},
   // { "keys": ["super+shift+alt+t"], "command": "translate_extended_chars"}
 ]
