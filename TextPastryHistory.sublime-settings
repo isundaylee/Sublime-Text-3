@@ -45,17 +45,46 @@
 			},
 			"key": "bed4ce69bb178ee0474acea7c3188868",
 			"label": "1 1 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Customer 33",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Customer 33"
+			},
+			"key": "97c932a657371e612a634a2945e4ce27",
+			"label": "Customer 33"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "Customer 33"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter Customer 33"
+			},
+			"key": "19363e22722655d66ab417d8df2b84bf",
+			"label": "filter Customer 33"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"current": "1",
-			"padding": "2",
-			"step": "1"
+			"context": "selection",
+			"operator": null,
+			"pattern": "Customer 33"
 		},
-		"command": "insert_nums",
-		"text": "1 1 2"
+		"command": "text_pastry_modify_selection",
+		"text": "filter Customer 33"
 	}
 }

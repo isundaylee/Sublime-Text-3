@@ -5,7 +5,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
@@ -25,8 +25,9 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Bootstrap 3 Snippets",
+		"Terminal",
+		"Markdown",
 		"3024 Color Scheme",
 		"Base16 Color Schemes"
 	],
@@ -40,7 +41,6 @@
 	"ruler": 100,
 	"show_encoding": true,
 	"soda_classic_tabs": true,
-	"tab_size": 8,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
