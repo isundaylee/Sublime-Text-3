@@ -18,25 +18,25 @@
 		".git",
 		"venv"
 	],
-	"font_face": "DejaVu Sans Mono",
+	"font_face": "Hack",
 	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Bootstrap 3 Snippets",
-		"Terminal",
-		"Markdown",
 		"3024 Color Scheme",
-		"Base16 Color Schemes"
+		"Markdown",
+		"Terminal",
+		"Base16 Color Schemes",
+		"Bootstrap 3 Snippets"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 1,
+	"line_padding_bottom": -1,
 	"remember_open_files": false,
 	"ruler": 100,
 	"show_encoding": true,
