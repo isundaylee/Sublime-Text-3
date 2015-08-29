@@ -1,0 +1,4 @@
+{
+  "env": {"GOPATH": "$HOME/Programming/Go"},
+  "build_command": ["go", "install"]
+}
