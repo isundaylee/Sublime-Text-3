@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "osascript -e 'tell app \"Terminal\" to do script \"python3 $file\"'",
+    "selector": "source.python"
+}
