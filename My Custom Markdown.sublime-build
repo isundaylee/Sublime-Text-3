@@ -1,5 +1,5 @@
 {
-  "cmd": ["md $file_base_name && open -g $file_base_name.html"],
+  "cmd": ["~/Programming/Git/omz/bin/md $file_base_name && open -g $file_base_name.html"],
   "working_dir": "${project_path:${folder}}",
   "selector": "text.html.markdown",
   "shell": true
