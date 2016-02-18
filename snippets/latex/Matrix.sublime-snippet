@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 \left(\begin{matrix}
-  $1
+    $1
 \end{matrix}\right)
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

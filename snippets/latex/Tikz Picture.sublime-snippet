@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 \begin{tikzpicture}
-  ${1:}
+    ${1:}
 \end{tikzpicture}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

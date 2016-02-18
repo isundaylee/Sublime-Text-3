@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
 \begin{figure}[here]
-  \centering
-  \begin{tikzpicture}
-    ${3:}
-  \end{tikzpicture}
-  \caption{${2:A caption}}
-  \label{${1:a_label}}
+    \centering
+    \begin{tikzpicture}
+        ${3:}
+    \end{tikzpicture}
+    \caption{${2:A caption}}
+    \label{${1:a_label}}
 \end{figure}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
