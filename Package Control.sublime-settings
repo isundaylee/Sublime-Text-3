@@ -16,6 +16,7 @@
 		"BracketHighlighter",
 		"Case Conversion",
 		"ChangeQuotes",
+		"CJSX Syntax",
 		"Dayle Rees Color Schemes",
 		"Djaneiro",
 		"Emmet",
@@ -39,6 +40,7 @@
 		"MarkdownEditing",
 		"Package Control",
 		"Pretty JSON",
+		"Racket",
 		"Rails Partial",
 		"ReactJS",
 		"RSpec",
@@ -68,6 +70,7 @@
 		"Theme - Spacegray",
 		"TikZ",
 		"Tomorrow Color Schemes",
-		"Varnish VCL"
+		"Varnish VCL",
+		"zenburn"
 	]
 }
