@@ -26,10 +26,10 @@
 	"ignored_packages":
 	[
 		"3024 Color Scheme",
-		"Markdown",
-		"Terminal",
 		"Base16 Color Schemes",
-		"Bootstrap 3 Snippets"
+		"Bootstrap 3 Snippets",
+		"Markdown",
+		"Terminal"
 	],
 	"indent_guide_options":
 	[
