@@ -25,11 +25,6 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"3024 Color Scheme",
-		"Base16 Color Schemes",
-		"Bootstrap 3 Snippets",
-		"Markdown",
-		"Terminal"
 	],
 	"indent_guide_options":
 	[
