@@ -12,11 +12,11 @@
 		"Babel",
 		"Base16 Color Schemes",
 		"Better CoffeeScript",
-		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Case Conversion",
 		"ChangeQuotes",
 		"CJSX Syntax",
+		"Compare Side-By-Side",
 		"Dayle Rees Color Schemes",
 		"Djaneiro",
 		"Emmet",
@@ -51,6 +51,7 @@
 		"ScopeHunter",
 		"SFTP",
 		"SideBarEnhancements",
+		"sublime-text-2-buildview",
 		"SublimeAStyleFormatter",
 		"SublimeCodeIntel",
 		"SublimeLinter",
@@ -74,5 +75,9 @@
 		"Tomorrow Color Schemes",
 		"Varnish VCL",
 		"zenburn"
+	],
+	"repositories":
+	[
+		"https://github.com/gepd/Stino/tree/new-stino"
 	]
 }
